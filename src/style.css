@@ -4,7 +4,7 @@
     --text-100: #FFFFFF;
     --bg-100: #0F1626;
     --bg-300: #363c4e;
-    --hearder-1: clamp(1.8663rem, 1.6198rem + 1.2324vw, 4.5775rem);
+    --header-1: clamp(1.8663rem, 1.6198rem + 1.2324vw, 4.5775rem);
     --text-large: clamp(1.2963rem, 1.1477rem + 0.7426vw, 2.93rem);
     --text-medium: clamp(0.75rem, 0.6818rem + 0.3409vw, 1.5rem);
     --text-small: .75rem;
@@ -39,6 +39,7 @@ html {
     position: fixed;
     display: flex;
     justify-content: space-between;
+
     button {
         /*Contact Button Properties */
         margin: 3.5rem 2rem;
@@ -66,7 +67,7 @@ html {
     button:active {
         background-color: var(--bg-300);
         transform: translateY(1rem);
-        transition-duration: (var(--transition-time));
+        transition-duration: var(--transition-time);
     }
 
     button:hover {
@@ -76,8 +77,9 @@ html {
         transition-duration: var(--transition-time);
     }
 
-    #burger-tog
+
     /* Burger Button Properties */
+    #burger-tog
         {
         display: block;
         position: relative;
@@ -89,17 +91,20 @@ html {
         /* avoid page zoom when double tap*/
         -webkit-user-select: none;
         user-select: none;
+
         a {
             /* Menu Items */
             text-decoration: none;
             color: var(--text-100);
             transition: color var(--transition-time) ease;
         }
+
         a:hover {
             /* Menu Items */
             color: var(--accent-100);
             /* MUST BE IN DESKTOP TO WORK*/
         }
+
         input {
             /* Hidden Checkbox Settings */
             display: block;
@@ -118,6 +123,7 @@ html {
             -webkit-touch-callout: none;
             /* no link preview when long touching */
         }
+
         input:checked~ul {
             /* needed to move from left */
             transform: none;
@@ -140,6 +146,7 @@ html {
         transform-origin: 0% 0%;
         transform: translate(-100%, 0);
         transition: transform var(--transition-time) cubic-bezier(0.77, 0.2, 0.05, 1.0);
+
         li {
             padding: 2rem 0;
             font-weight: bolder;
@@ -242,7 +249,7 @@ html {
             flex-wrap: wrap;
 
             h1 {
-                font-size: var(--hearder-1);
+                font-size: var(--header-1);
                 margin-bottom: var(--text-margin);
             }
 
@@ -265,7 +272,7 @@ html {
         justify-content: center;
 
         h1 {
-            font-size: var(--hearder-1);
+            font-size: var(--header-1);
             margin-bottom: var(--text-margin);
         }
 
@@ -355,7 +362,7 @@ html {
         justify-content: center;
 
         h1 {
-            font-size: var(--hearder-1);
+            font-size: var(--header-1);
             margin: var(--text-margin);
         }
 
@@ -421,7 +428,7 @@ html {
 
     /* prevents post touching bottom */
     h1 {
-        font-size: var(--hearder-1);
+        font-size: var(--header-1);
         margin: var(--text-margin);
     }
 
@@ -478,7 +485,7 @@ html {
 
     /* prevents post touching bottom */
     h1 {
-        font-size: var(--hearder-1);
+        font-size: var(--header-1);
         margin: var(--text-margin);
     }
 
@@ -534,7 +541,7 @@ html {
 
     /* prevents post touching bottom */
     h1 {
-        font-size: var(--hearder-1);
+        font-size: var(--header-1);
         margin: var(--text-margin);
     }
 
