@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Zenki</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<!-- SHARED HTML START -->
+    <div class="Navigation">
+        <nav>
+            <!-- Burger Menu -->
+            <div id="burger-tog">
+                🍔
+            <input type="checkbox" />
+            <ul id="burger">
+                <a href="index.html"><li>Home</li></a>
+                <a href="projects.html"><li>Projects</li></a>
+                <a href="blog.html"><li>Weekly</li></a>
+                <a href="about.html"><li>About</li></a>
+            </ul>
+            </div>
+        </nav>
+        <!-- Contact Me Button -->
+        <form action="#open-modal">
+            <button type="submit">Contact</button> 
+            <!-- Not Recommended, only using as there is no javascript -->
+        </form>
+    </div>
+    <!-- Modal Window -->
+    <div id="open-modal" class="modal-window">
+        <div>
+            <a href="#">Close</a>
+            <form action="">
+                <!-- Contact Inputs -->
+                <input type="text" name="fullname" placeholder="Your Name" />
+                <input type="email" name="email" placeholder="Your E-mail Address" />
+                <input type="tele" name="phone" placeholder="Your Phone Number"/>
+                <textarea name="text" rows="8" placeholder="Your Message"></textarea>
+                <button>Submit</button>
+            </form>
+        </div>
+    </div>
+<!-- SHARED HTML END -->
+
+<!-- About Me Content -->
+    <div class="About-Content">
+        <h1> <!-- About Me Title -->
+            About Me
+        </h1>
+        <div class="posts">
+            <div class="items">
+                <article>
+                    <h3>Hello!</h3>
+                    <p>
+                        Greetings! I'm Zenki Whiteley, an aspiring junior full-stack developer with a unique journey
+                        that
+                        spans from the meticulous world of civil design to the hands-on artistry of car detailing.
+                    </p>
+                </article>
+                <article role="image">
+                    <!-- Profile Picture -->
+                    <img src="imgs/profile_pic.png" alt="Profile Picture">
+                </article>
+                <article>
+                    <h3>Hobbies</h3>
+                    <p>
+                        I have a passion for electronics, tinkering around and designing my own devices, one
+                        of which being my very own home made SLAM Lidar scanner. This device fires of near infra-red
+                        light to measure distances, inorder to create point clouds of its local environment. This
+                        extends into my other interest of digital twins, as I can use these points clouds to create near
+                        identical copies of places that I have been. Amongst all the designs and electronics, I also
+                        enjoy a plethora of different physical activities, being somewhat of an avid tennis player,
+                        playing weekly if I ever get the chance.
+                    </p>
+                </article>
+                <article>
+                    <h3>Education</h3>
+                    <span>
+                        <b>Coder Academy Full Stack Developer Bootcamp</b><br>
+                        Coder Academy - Sydeny<br>
+                        October 2023 to Present
+                    </span>
+                    <span>
+                        <b>Advanced Diploma in Design</b><br>
+                        TAFE Sydney Institute - Ultimo NSW<br>
+                        February 2021 to July 2021
+                    </span>
+                    <span>
+                        <b>Diploma in Civil Construction Design in Civil</b><br>
+                        TAFE Sydney Institute - Ultimo NSW<br>
+                        February 2020 to October 2020
+                    </span>
+                    <span>
+                        <b>Certificate I in IV</b><br>
+                        TAFE Western Sydney Institute - Wetherill Park NSW<br>
+                        February 2019 to October 2019
+                    </span>
+                </article>
+                <article>
+                    <h3>Current Position</h3>
+                    <p>
+                        <b>Car Detailer</b><br>
+                        Carma - Alexandria NSW<br>
+                        August 2022 to Current
+                        As the main sales detailer, I was responsible for preparing both the interior and exterior of
+                        cars that had been sold.
+                        I organised which cars recieved specialty processes inorder maximise car output, without
+                        compromising on quality.
+                        With a keen eye for detail, each car was checked to minimise customer issues and reduce the
+                        possibility of returns.
+                    </p>
+                    <!-- Resume Link -->
+                    <label>Resume: 
+                        <a href="https://drive.google.com/file/d/1wIgLgoJVdbyMaV2z6GxGageZ9CQzxE3W/view?usp=sharing"target=”_blank”>👉 HERE 👈</a></label>
+                </article>
+                <article>
+                    <h3>Previous Positions</h3>
+                    <span>
+                        <b>Assistant Art Director</b><br>
+                        You & Me by the Sea - Short Film - Sydney NSW<br>
+                        2022 to 2022<br>
+                    </span>
+                    <span>
+                        <b>Car Detailer</b><br>
+                        Crystal Car Wash - Coogee NSW<br>
+                        2021 to 2022<br>
+                    </span>
+                    <span>
+                        <b>Assistant Coach</b><br>
+                        Eastern Suburbs Tennis Club Coogee - Coogee NSW<br>
+                        2019 to 2019<br>
+                    </span>
+                    <span>
+                        <b>Animal Logic Work Experience</b><br>
+                        Animal Logic - Sydney NSW<br>
+                        2017 to 2017<br>
+                    </span>
+                </article>
+                <article>
+                    <h3>My Tech Stack</h3>
+                    <p>
+                        The tech stack that I will be working towards will be MERN.<br>
+                        This stack includes:<br>
+                        <b>MongoDB</b>: A NoSQL database.<br>
+                        <b>Express</b>: A web framework for APIs.<br>
+                        <b>React</b>: A library used for building the front-end of my projects.<br>
+                        <b>Node.js</b>: A server technology to handle the backend of my projects.<br>
+                    </p>
+                </article>
+                <article>
+                    <!-- Social Links -->
+                    <a href="https://github.com/R-Z-W" target=”_blank”><img src="imgs/github-mark-white.png" alt="Github"></a>
+                    <a href="https://www.linkedin.com/in/ronanwhiteley/" target=”_blank”><img src="imgs/LI-In-Bug.png" alt="Github"></a>
+                    <a href="https://www.youtube.com/channel/UCM7Jr1QHGbWeZcyulGxDfLw" target=”_blank”><img src="imgs/youtube_social_icon_red.png" alt="Github"></a>   
+                </article>
+            </div>
+        </div>
+    </div>
+
+
+</body>

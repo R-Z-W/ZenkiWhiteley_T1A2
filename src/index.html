@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Zenki's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- SHARED HTML START -->
+    <div class="Navigation">
+        <nav>
+            <!-- Burger Menu -->
+            <div id="burger-tog">
+                🍔
+              <input type="checkbox" />
+              <ul id="burger">
+                <a href="index.html"><li>Home</li></a>
+                <a href="projects.html"><li>Projects</li></a>
+                <a href="blog.html"><li>Weekly</li></a>
+                <a href="about.html"><li>About</li></a>
+              </ul>
+            </div>
+        </nav>
+        <!-- Contact Me Button -->
+        <form action="#open-modal">
+            <button type="submit">Contact</button> 
+            <!-- Not Recommended, only using as there is no javascript -->
+        </form>
+    </div>
+    <!-- Modal Window -->
+    <div id="open-modal" class="modal-window">
+        <div>
+            <a href="#">Close</a>
+            <form action="">
+                <!-- Contact Inputs -->
+                <input type="text" name="fullname" placeholder="Your Name" />
+                <input type="email" name="email" placeholder="Your E-mail Address" />
+                <input type="tele" name="phone" placeholder="Your Phone Number"/>
+                <textarea name="text" rows="8" placeholder="Your Message"></textarea>
+                <button>Submit</button>
+            </form>
+        </div>
+    </div>
+<!-- SHARED HTML END -->
+
+    <div class="Home-Content">
+        <section class="Home">
+            <div class="Welcome">
+                <div>
+                    <!-- Main Title -->
+                    <h1>Hi 👋, My<br>name is Zenki</h1>
+                    <h2>Junior Full Stack Developer<br>Sydney Australia</h2>
+                </div>
+                <!-- Profile Image -->
+                <img src="imgs/profile_pic.png" alt="ProfilePic">
+            </div>
+        </section>
+
+        <section class="F-Projects">
+            <!-- Carousel Title -->
+            <h1>Featured Projects</h1>
+            <!-- Carousel -->
+            <div class="carousel">
+                <article class="items">
+                    <h2>Math &<br>Facades</h2>
+                    <h3>Future Plans</h3>
+                    <img src="imgs/pexels-cami-18809459.jpg" alt="Building Facade">
+                </article>
+                <article class="items">
+                    <h2>Tracking<br>Deer</h2>
+                    <h3>In Progress</h3>
+                    <img src="imgs/pexels-carolin-wenske-19135990.jpg" alt="Deer">
+                </article>
+                <article class="items">
+                    <h2>Lots of<br>Bicycles</h2>
+                    <h3>Complete</h3>
+                    <img src="imgs/pexels-gül-işık-19001793.jpg" alt="European Bicycles">
+                </article>
+                <!-- SEE MORE BUTTON -->
+                <a href="projects.html">
+                    <article class="items" role="button"> 
+                        <!-- Role property makes the browser believe its a button -->
+                        <!-- Kept as article to easily share properties between post and the button -->
+                        <h2>See More ➡️</h2> 
+                    </article>
+                </a>
+            </div>
+        </section>
+
+        <section class="Contact">
+            <!-- Contact Form -->
+            <div class="contact-info">
+                <h1>Lets Get In Touch</h1>
+                <div class="contact-content">
+                    <!-- Left Side Items -->
+                    <div class="my-details">
+                        <h2>My Details</h2>
+                        <label>Email: whiteleyzenki@gmail.com</label>
+                        <label>Phone: 0421 690 098</label>
+                        <label>Address: Sydney Australia</label>
+                        <label>Resume:
+                            <a href="https://drive.google.com/file/d/1wIgLgoJVdbyMaV2z6GxGageZ9CQzxE3W/view?usp=sharing"target=”_blank”>👉 HERE 👈</a></label>
+                        <h3>Socials:</h3>
+                        <div class="socials">
+                            <a href="https://github.com/R-Z-W" target=”_blank”><img src="imgs/github-mark-white.png" alt="Github"></a>
+                            <a href="https://www.linkedin.com/in/ronanwhiteley/" target=”_blank”><img src="imgs/LI-In-Bug.png" alt="Github"></a>
+                            <a href="https://www.youtube.com/channel/UCM7Jr1QHGbWeZcyulGxDfLw" target=”_blank”><img src="imgs/youtube_social_icon_red.png" alt="Github"></a>
+                        </div>
+                    </div>
+                    <!-- Right Side Items -->
+                    <div class="your-details">
+                        <h2>Your Details</h2>
+                        <form>
+                            <!-- Contact Inputs -->
+                            <input type="text" name="fullname" placeholder="Your Name" />
+                            <input type="email" name="email" placeholder="Your E-mail Address" />
+                            <input type="tele" name="phone" placeholder="Your Phone Number"/>
+                            <textarea name="text" rows="8" placeholder="Your Message"></textarea>
+                            <button class="submit">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <!-- <footer>
+                <p>&copy 2023 Zenki Whiteley</p>
+            </footer> -->
+        </section>
+        
+    </div>
+
+    
+</body>
+</html>

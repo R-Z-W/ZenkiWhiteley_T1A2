@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zenki's Projects</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- SHARED HTML START -->
+    <div class="Navigation">
+        <nav>
+            <!-- Burger Menu -->
+            <div id="burger-tog">
+                🍔
+            <input type="checkbox" />
+            <ul id="burger">
+                <a href="index.html"><li>Home</li></a>
+                <a href="projects.html"><li>Projects</li></a>
+                <a href="blog.html"><li>Weekly</li></a>
+                <a href="about.html"><li>About</li></a>
+            </ul>
+            </div>
+        </nav>
+        <!-- Contact Me Button -->
+        <form action="#open-modal">
+            <button type="submit">Contact</button> 
+            <!-- Not Recommended, only using as there is no javascript -->
+        </form>
+    </div>
+    <!-- Modal Window -->
+    <div id="open-modal" class="modal-window">
+        <div>
+            <a href="#">Close</a>
+            <form action="">
+                <!-- Contact Inputs -->
+                <input type="text" name="fullname" placeholder="Your Name" />
+                <input type="email" name="email" placeholder="Your E-mail Address" />
+                <input type="tele" name="phone" placeholder="Your Phone Number"/>
+                <textarea name="text" rows="8" placeholder="Your Message"></textarea>
+                <button>Submit</button>
+            </form>
+        </div>
+    </div>
+<!-- SHARED HTML END -->
+
+<!-- Projects Content -->
+    <div class="Projects-Content">
+        <h1> <!-- Projects Title -->
+            Projects
+        </h1>
+        <h2>
+            A library of past, current and future projects.
+        </h2>
+        <div class="posts">
+            <!-- Project Posts -->
+            <article class="items">
+                <h2>Math &<br>Facades</h2>
+                <h3>Future Plans</h3>
+                <img src="imgs/pexels-cami-18809459.jpg" alt="Building Facade">
+            </article>
+            <article class="items">
+                <h2>Tracking<br>Deer</h2>
+                <h3>In Progress</h3>
+                <img src="imgs/pexels-carolin-wenske-19135990.jpg" alt="Deer">
+            </article>
+            <article class="items">
+                <h2>Lots of<br>Bicycles</h2>
+                <h3>Complete</h3>
+                <img src="imgs/pexels-gül-işık-19001793.jpg" alt="European Bicycles">
+            </article>
+            <article class="items">
+                <h2>Snowy<br>Mountains</h2>
+                <h3>Complete</h3>
+                <img src="imgs/pexels-imogen-short-19024158.jpg" alt="Snow Capped Mountains">
+            </article>
+            <article class="items">
+                <h2>Water<br>& Desert</h2>
+                <h3>Complete</h3>
+                <img src="imgs/pexels-leo-castro-19071242.jpg" alt="Water In The Desert">
+            </article>
+            <article class="items">
+                <h2>Face<br>The Sun?</h2>
+                <h3>Complete</h3>
+                <img src="imgs/pexels-nati-17456609.jpg" alt="Sunflowers">
+            </article>
+            <article class="items">
+                <h2>Moos<br>Per Day</h2>
+                <h3>Complete</h3>
+                <img src="imgs/pexels-mathias-reding-18827685.jpg" alt="Cow">
+            </article>
+            <article class="items">
+                <h2>Car<br>Detailing</h2>
+                <h3>Complete</h3>
+                <img src="imgs/pexels-marina-endzhirgli-18933192.jpg" alt="Leafy Mercedes">
+            </article>
+        </div>
+    </div>
+</body>
