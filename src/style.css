@@ -28,14 +28,14 @@ html {
     color: var(--primary-100);
     scroll-behavior: smooth;
     /* For Scroll Snapping */
-    scroll-snap-points-y: repeat(100svh);
+    scroll-snap-points-y: repeat(100vh);
     /* For Scroll Snapping */
     scroll-snap-type: y proximity;
     /* For Scroll Snapping */
 }
 
 .Navigation {
-    width: 100svw;
+    width: 100vw;
     position: fixed;
     display: flex;
     justify-content: space-between;
@@ -239,10 +239,10 @@ html {
     }
 
     .Home {
-        height: 100svh;
+        height: 100vh;
 
         .Welcome {
-            height: 100svh;
+            height: 100vh;
             display: flex;
             align-items: center;
             justify-content: space-between;
@@ -266,7 +266,7 @@ html {
     }
 
     .F-Projects {
-        height: 100svh;
+        height: 100vh;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -356,7 +356,7 @@ html {
     }
 
     .Contact {
-        height: 100svh;
+        height: 100vh;
         display: flex;
         flex-direction: column;
         justify-content: center;
