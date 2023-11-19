@@ -1,6 +1,6 @@
 # Welcome!
 ## To My Portfolio Webstite
-As an aspiring developer, the purpose of this site is to showcase the skills and knowledge, that I have accumulated whilst attending a full stack developer bootcamp by Coder Academy. What I would like to achieve is to demonstrate, to potential future employees and/or clients, what I can offer to their projects.
+As an aspiring developer, the purpose of this site is to showcase the skills and knowledge, that I have accumulated whilst attending a full stack developer bootcamp by Coder Academy. What I would like to achieve is a demonstration, to potential future employees and/or clients, what I can offer to their projects.
 
 ## Links
 - [Website](https://effortless-unicorn-d35adc.netlify.app/)
