@@ -5,7 +5,7 @@ As an aspiring developer, the purpose of this site is to showcase the skills and
 ## Links
 - [Website](https://effortless-unicorn-d35adc.netlify.app/)
 - [Repo](https://github.com/R-Z-W/ZenkiWhiteley_T1A2)
-- [Video](https://github.com/R-Z-W/ZenkiWhiteley_T1A2)
+- [Video](https://www.youtube.com/watch?v=dcz_V_dnA2A)
 
 ## Designing & Building The Site
 The design goal of my website was to make a simple site to allow for me to focus more on a pleasant user experience for my primary audience, future employees and/or clients. I wanted the site to be responsive, dynamic and have user friendly features. I also wanted to challenge myself into designing the site that was not heavily dependent on media queires or javascript code. 
