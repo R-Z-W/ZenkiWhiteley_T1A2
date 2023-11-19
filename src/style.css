@@ -34,6 +34,26 @@ html {
     /* For Scroll Snapping */
 }
 
+
+h1 {
+    font-size: var(--header-1);
+    margin-bottom: var(--text-margin);
+}
+
+h2 {
+    font-size: var(--text-large);
+    margin: var(--text-margin);
+}
+
+h3 {
+    font-size: var(--text-medium);
+    margin: var(--text-margin);
+}
+
+p {
+    font-size: var(--text-medium);
+}
+
 .Navigation {
     width: 100vw;
     position: fixed;
@@ -224,24 +244,6 @@ html {
     border-radius: var(--border-radius1);
 }
 
-h1 {
-    font-size: var(--header-1);
-    margin-bottom: var(--text-margin);
-}
-
-h2 {
-    font-size: var(--text-large);
-    margin: var(--text-margin);
-}
-
-h3 {
-    font-size: var(--text-medium);
-    margin: var(--text-margin);
-}
-
-p {
-    font-size: var(--text-medium);
-}
 
 /* HOMEPAGE START */
 .Home-Content {
